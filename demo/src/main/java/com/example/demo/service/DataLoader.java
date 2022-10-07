@@ -30,7 +30,7 @@ public class DataLoader {
 
 		int workChunk = 5000;
 
-		Reader in = new FileReader("C:\\Users\\WIN10USER\\Desktop\\EnergyBot\\recordings2017x.csv");
+		Reader in = new FileReader("C:\\Users\\WIN10USER\\Desktop\\EnergyBot\\recordings2017.csv");
 
 		Iterable<CSVRecord> records = CSVFormat.DEFAULT.parse(in);
 
